@@ -40,6 +40,17 @@ class PopularDietsModel {
       )
     );
 
+        popularDiets.add(
+      PopularDietsModel(
+       name: 'Chicken Teriyaki',
+       iconPath: 'assets/icons/chicken-teriyaki.svg',
+       level: 'Medium',
+       duration: '25mins',
+       calorie: '180kCal',
+       boxIsSelected: false,
+      )
+    );
+
     return popularDiets;
   }
 }
